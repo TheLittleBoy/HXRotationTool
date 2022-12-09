@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'HXRotationTool_Example' do
+  pod 'HXRotationTool', :path => '../'
+
+  target 'HXRotationTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
