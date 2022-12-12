@@ -1,0 +1,6 @@
+framework module HXRotationTool {
+  umbrella header "HXRotationTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
