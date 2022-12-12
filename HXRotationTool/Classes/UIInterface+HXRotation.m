@@ -47,8 +47,9 @@
             SEL supportedInterfaceSelector = NSSelectorFromString(@"setNeedsUpdateOfSupportedInterfaceOrientations");
             [self performSelector:supportedInterfaceSelector];
 #pragma clang diagnostic pop
-        });
+        
 #endif
+        });
         
     }
 
