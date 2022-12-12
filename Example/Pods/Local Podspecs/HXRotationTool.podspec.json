@@ -1,6 +1,6 @@
 {
   "name": "HXRotationTool",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "iOS 屏幕旋转工具类，兼容iOS 16，兼容Xcode 13和Xcode 14。",
   "description": "iOS 屏幕旋转工具类，兼容iOS 16，兼容Xcode 13和Xcode 14。",
   "homepage": "https://github.com/TheLittleBoy/HXRotationTool",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/TheLittleBoy/HXRotationTool.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "9.0"

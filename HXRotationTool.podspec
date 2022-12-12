@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HXRotationTool'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'iOS 屏幕旋转工具类，兼容iOS 16，兼容Xcode 13和Xcode 14。'
 
 # This description is used to generate tags and improve search results.
