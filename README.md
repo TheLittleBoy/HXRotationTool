@@ -20,6 +20,10 @@ it, simply add the following line to your Podfile:
 pod 'HXRotationTool'
 ```
 
+## Demo ScreenShot
+
+![](https://github.com/TheLittleBoy/HXRotationTool/blob/main/image.png)
+
 ## Author
 
 TheLittleBoy
