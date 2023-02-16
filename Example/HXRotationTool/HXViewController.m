@@ -22,6 +22,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
+    //案例一：
     currentVCInterfaceOrientationMask = UIInterfaceOrientationMaskAllButUpsideDown;
 }
 
@@ -31,6 +32,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+//案例二：
 - (IBAction)rotationToLandscapeInterface:(id)sender {
     
     currentVCInterfaceOrientationMask = UIInterfaceOrientationMaskAllButUpsideDown;
@@ -46,6 +48,7 @@
     [self hx_rotateToInterfaceOrientation:UIInterfaceOrientationPortrait];
 }
 
+//案例三：
 - (IBAction)lockWithLandscapeInterface:(id)sender {
     
     currentVCInterfaceOrientationMask = UIInterfaceOrientationMaskLandscape;
@@ -61,7 +64,7 @@
 }
 
 
-#pragma mark -
+#pragma mark - 实现系统转屏的相关方法即可
 
 - (BOOL)shouldAutorotate {
     return YES;
@@ -72,22 +75,10 @@
     return UIStatusBarStyleLightContent;
 }
 
-- (BOOL)prefersStatusBarHidden {
-    return NO;
-}
-
-- (UIStatusBarAnimation)preferredStatusBarUpdateAnimation {
-    return UIStatusBarAnimationNone;
-}
-
 // 支持哪些屏幕方向
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations {
     
     return currentVCInterfaceOrientationMask;
 }
 
-// 全面屏底部横条自动隐藏
-- (BOOL)prefersHomeIndicatorAutoHidden {
-    return YES;
-}
 @end

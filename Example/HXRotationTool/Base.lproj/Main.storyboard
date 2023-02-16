@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -16,52 +16,138 @@
                         <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MFC-3l-X7P">
-                                <rect key="frame" x="63" y="37" width="249" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MFC-3l-X7P">
+                                <rect key="frame" x="132" y="262" width="150" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="UcS-w7-ynD"/>
+                                    <constraint firstAttribute="width" constant="150" id="qc3-BS-i4Z"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="强制旋转到横屏"/>
                                 <connections>
                                     <action selector="rotationToLandscapeInterface:" destination="whP-gf-Uak" eventType="touchUpInside" id="JK6-wH-gtf"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="udh-dC-EaD">
-                                <rect key="frame" x="80" y="118" width="215" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="udh-dC-EaD">
+                                <rect key="frame" x="132" y="322" width="150" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="sPB-pN-oab"/>
+                                    <constraint firstAttribute="width" constant="150" id="yVg-oy-tzD"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="强制旋转到竖屏"/>
                                 <connections>
                                     <action selector="rotationToPortraitInterface:" destination="whP-gf-Uak" eventType="touchUpInside" id="49i-cB-xdR"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ylF-X0-bwE">
-                                <rect key="frame" x="97.5" y="185" width="180" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ylF-X0-bwE">
+                                <rect key="frame" x="149" y="465" width="116" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="0k8-rl-Iib"/>
+                                    <constraint firstAttribute="width" constant="116" id="w3O-lD-8uL"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="锁定横屏"/>
                                 <connections>
                                     <action selector="lockWithLandscapeInterface:" destination="whP-gf-Uak" eventType="touchUpInside" id="UVN-5g-IGc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9YU-jk-1Cs">
-                                <rect key="frame" x="94" y="244" width="187" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9YU-jk-1Cs">
+                                <rect key="frame" x="149" y="520" width="116" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="5UP-tR-CcJ"/>
+                                    <constraint firstAttribute="width" constant="116" id="vwl-FJ-bI9"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="解除锁定"/>
                                 <connections>
                                     <action selector="lockWithPortraitInterface:" destination="whP-gf-Uak" eventType="touchUpInside" id="s38-Pg-igb"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="案例一：本页面可以跟随设备方向自由旋转屏幕" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SGy-Gs-HZt">
+                                <rect key="frame" x="26" y="105" width="374" height="67"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="67" id="ebO-cY-a7U"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="案例三：点击下列按钮，强制锁定横屏，就不能自由旋转屏幕了" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="33G-4z-QlT">
+                                <rect key="frame" x="26" y="401" width="374" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="dBH-C0-hP2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HXRotationTool" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTe-GU-tvp">
+                                <rect key="frame" x="148" y="64" width="118" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="118" id="VtB-pg-GM5"/>
+                                    <constraint firstAttribute="height" constant="21" id="cDA-9W-KcR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="案例二：点击下列按钮，实现手动强制转屏" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zU5-d6-YW2">
+                                <rect key="frame" x="26" y="201" width="374" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="ctz-sh-0h5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zU5-d6-YW2" firstAttribute="top" secondItem="SGy-Gs-HZt" secondAttribute="bottom" constant="29" id="5aL-iG-fIY">
+                                <variation key="heightClass=compact-widthClass=regular" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="MFC-3l-X7P" firstAttribute="top" secondItem="zU5-d6-YW2" secondAttribute="bottom" constant="6" id="AJg-jR-Hea"/>
+                            <constraint firstItem="udh-dC-EaD" firstAttribute="top" secondItem="MFC-3l-X7P" secondAttribute="bottom" constant="12" id="LLL-kg-Aj4">
+                                <variation key="heightClass=compact-widthClass=regular" constant="-44"/>
+                            </constraint>
+                            <constraint firstItem="zU5-d6-YW2" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="6" id="SD9-cv-SeR"/>
+                            <constraint firstItem="33G-4z-QlT" firstAttribute="trailing" secondItem="TpU-gO-2f1" secondAttribute="trailingMargin" constant="6" id="Sgb-JN-82j"/>
+                            <constraint firstItem="zU5-d6-YW2" firstAttribute="trailing" secondItem="TpU-gO-2f1" secondAttribute="trailingMargin" constant="6" id="TkP-Vg-pej"/>
+                            <constraint firstItem="33G-4z-QlT" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="6" id="U6X-09-XZo"/>
+                            <constraint firstItem="SGy-Gs-HZt" firstAttribute="trailing" secondItem="TpU-gO-2f1" secondAttribute="trailingMargin" constant="6" id="aR0-pO-uMD"/>
+                            <constraint firstItem="33G-4z-QlT" firstAttribute="top" secondItem="udh-dC-EaD" secondAttribute="bottom" constant="35" id="cEF-in-tgX">
+                                <variation key="heightClass=compact-widthClass=regular" constant="6"/>
+                            </constraint>
+                            <constraint firstItem="SGy-Gs-HZt" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="6" id="cSO-QI-JhG"/>
+                            <constraint firstItem="MTe-GU-tvp" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="dQE-EL-cHS"/>
+                            <constraint firstItem="ylF-X0-bwE" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="fep-D8-yQ3">
+                                <variation key="heightClass=compact-widthClass=regular" constant="-100"/>
+                            </constraint>
+                            <constraint firstItem="udh-dC-EaD" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="hok-qp-pL6">
+                                <variation key="heightClass=compact-widthClass=regular" constant="100"/>
+                            </constraint>
+                            <constraint firstItem="MFC-3l-X7P" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="iq5-rn-ydd">
+                                <variation key="heightClass=compact-widthClass=regular" constant="-100"/>
+                            </constraint>
+                            <constraint firstItem="9YU-jk-1Cs" firstAttribute="top" secondItem="ylF-X0-bwE" secondAttribute="bottom" constant="12" id="k8w-dj-isN">
+                                <variation key="heightClass=compact-widthClass=regular" constant="-47"/>
+                            </constraint>
+                            <constraint firstItem="SGy-Gs-HZt" firstAttribute="top" secondItem="MTe-GU-tvp" secondAttribute="bottom" constant="20" id="ld7-UO-VeR"/>
+                            <constraint firstItem="MTe-GU-tvp" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="20" id="szD-yO-4Wo"/>
+                            <constraint firstItem="ylF-X0-bwE" firstAttribute="top" secondItem="33G-4z-QlT" secondAttribute="bottom" constant="6" id="vxm-Xq-V2I"/>
+                            <constraint firstItem="9YU-jk-1Cs" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="zk0-Dw-1g6">
+                                <variation key="heightClass=compact-widthClass=regular" constant="100"/>
+                            </constraint>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="304.80000000000001" y="432.23388305847078"/>
+            <point key="canvasLocation" x="304.34782608695656" y="431.91964285714283"/>
         </scene>
     </scenes>
 </document>
