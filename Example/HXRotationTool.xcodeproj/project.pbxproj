@@ -42,7 +42,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		618DF352FC12BDAD71DF8893 /* HXRotationTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HXRotationTool.podspec; path = ../HXRotationTool.podspec; sourceTree = "<group>"; };
+		618DF352FC12BDAD71DF8893 /* HXRotationTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HXRotationTool.podspec; path = ../HXRotationTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F5C181C13234B6E0B361EB9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -200,7 +200,7 @@
 				ORGANIZATIONNAME = TheLittleBoy;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = CX9724CS5M;
+						DevelopmentTeam = BYYVCSW9RQ;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -402,7 +402,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = CX9724CS5M;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = BYYVCSW9RQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HXRotationTool/HXRotationTool-Prefix.pch";
 				INFOPLIST_FILE = "HXRotationTool/HXRotationTool-Info.plist";
@@ -411,7 +411,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = developer;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = developer99;
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -424,7 +424,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = CX9724CS5M;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = BYYVCSW9RQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HXRotationTool/HXRotationTool-Prefix.pch";
 				INFOPLIST_FILE = "HXRotationTool/HXRotationTool-Info.plist";
@@ -433,7 +433,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = developer;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = developer99;
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};

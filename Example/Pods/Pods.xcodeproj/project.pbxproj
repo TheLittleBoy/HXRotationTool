@@ -7,60 +7,79 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D5C90841EA5D2A7C2FE3ABAE8079C7C /* UIInterface+HXRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84735857CD2182E33DFE9C44C54A706B /* UIInterface+HXRotation.m */; };
+		106A10980487CD0B903331C20BBF2CFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		2394FCC9F93BFEDE0EA83FCA5A83839E /* Pods-HXRotationTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD71795B5393325ABCAA45085D027FCE /* Pods-HXRotationTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31E84CBB36B07B89FD5A32112866649E /* Pods-HXRotationTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AEA5ECE45B63A70DFE3E5F66C1120D /* Pods-HXRotationTool_Example-dummy.m */; };
-		6149264ACBBA3C97F8D2E01BD4DCD25A /* HXRotationTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 173EBEB74A78B22F1144C7FA399958B5 /* HXRotationTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A5C6732D11BA68E9A4BB6602CD3755B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		413D65AFE4BCFFB91703CC7A9A62EBA3 /* HXRotationTool-HXRotationTool in Resources */ = {isa = PBXBuildFile; fileRef = 94C8D264D0F4C093F180CB43BD136663 /* HXRotationTool-HXRotationTool */; };
+		5DCA95D23EF58B09427C2109A26B6168 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 28700009CCB69C23537FD6D06BB54AF3 /* PrivacyInfo.xcprivacy */; };
 		B405BFB54A6BC4D54F3EEDA964FEBAEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		BB12C052C0F64A0EFF7E03A1F9C3D84F /* UIInterface+HXRotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9632E6B76FA9CFAD6EFFEF721693D657 /* UIInterface+HXRotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB21D3BB206A4F35EDD601CF5C96811F /* UIInterface+HXRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F3176FEDA634AED03E70C7036C6DC802 /* UIInterface+HXRotation.m */; };
-		ECE1611C2E68AEC494982D21DC3F9462 /* HXRotationTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5811C1517C00DDAC941A820BEA42D463 /* HXRotationTool-dummy.m */; };
+		BDBA259C3EF577A8F2853078E1284503 /* HXRotationTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 509019C978CA59473F14342E3B4CC306 /* HXRotationTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C006EAA5F33039FA6BDFCE4274F33F41 /* UIInterface+HXRotation.h in Headers */ = {isa = PBXBuildFile; fileRef = BCDC0E7F453A6EE0D5DD7210CA292F04 /* UIInterface+HXRotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F542054D4D9D94D1BEAA3843354410A8 /* HXRotationTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 787E346599DCAA3D681C7AB19D8D5BA2 /* HXRotationTool-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		134D44BA6C8A873C9120B75FDFFA8349 /* PBXContainerItemProxy */ = {
+		6CFC3ADCDF0851BBEA47D5F3AB8919BF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 532C90C864DC4E0AB3DCEE942FA851A4;
 			remoteInfo = HXRotationTool;
 		};
+		E28935AE655ED3EE4DC1F7CDFC80FDD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCDA7A587EBB9B1B090A7EC2CC3D20CC;
+			remoteInfo = "HXRotationTool-HXRotationTool";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		173EBEB74A78B22F1144C7FA399958B5 /* HXRotationTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HXRotationTool-umbrella.h"; sourceTree = "<group>"; };
-		1B17EE4B1708EEB4DE75A00C3D26B7D2 /* HXRotationTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HXRotationTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		198E7E8D6302C0E6BDA9133B5FA2DE72 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		236AFD47ACBCE54117F1BD25F2907AB1 /* Pods-HXRotationTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HXRotationTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		28700009CCB69C23537FD6D06BB54AF3 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = privacy/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		3538F2C56F303A18B041FE8A1A705A2F /* Pods-HXRotationTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXRotationTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		47B1DB0C98132941418CD7BE0BC4EEFA /* Pods-HXRotationTool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HXRotationTool_Example-Info.plist"; sourceTree = "<group>"; };
-		4F70490C3A5F486C3F0385590EFCE2B5 /* HXRotationTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HXRotationTool.modulemap; sourceTree = "<group>"; };
-		5811C1517C00DDAC941A820BEA42D463 /* HXRotationTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HXRotationTool-dummy.m"; sourceTree = "<group>"; };
-		6D3368B1DDDA04A1E555B345D0896230 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		509019C978CA59473F14342E3B4CC306 /* HXRotationTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HXRotationTool-umbrella.h"; sourceTree = "<group>"; };
+		71621BE5EB03B93D3A41D466EA436659 /* HXRotationTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HXRotationTool.release.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		74078E076BCEA796A30003D25C57C501 /* Pods-HXRotationTool_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HXRotationTool_Example"; path = Pods_HXRotationTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		787E346599DCAA3D681C7AB19D8D5BA2 /* HXRotationTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HXRotationTool-dummy.m"; sourceTree = "<group>"; };
 		7F77667A703CC65B187052C55364D821 /* Pods-HXRotationTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HXRotationTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		84735857CD2182E33DFE9C44C54A706B /* UIInterface+HXRotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIInterface+HXRotation.m"; path = "HXRotationTool/Classes/UIInterface+HXRotation.m"; sourceTree = "<group>"; };
+		87B3BA09929D9E88583F304213567CC4 /* HXRotationTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HXRotationTool-Info.plist"; sourceTree = "<group>"; };
 		89867D85936C3BB0CA5FEB31D32C7E39 /* HXRotationTool */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HXRotationTool; path = HXRotationTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93AEA5ECE45B63A70DFE3E5F66C1120D /* Pods-HXRotationTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HXRotationTool_Example-dummy.m"; sourceTree = "<group>"; };
-		9632E6B76FA9CFAD6EFFEF721693D657 /* UIInterface+HXRotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIInterface+HXRotation.h"; path = "HXRotationTool/Classes/UIInterface+HXRotation.h"; sourceTree = "<group>"; };
+		94C8D264D0F4C093F180CB43BD136663 /* HXRotationTool-HXRotationTool */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "HXRotationTool-HXRotationTool"; path = HXRotationTool.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2F681556BC27329A85438159F22FBA /* Pods-HXRotationTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HXRotationTool_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AD991C92032EF014E887BEC432528C2F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9E87BC776D7CFB5DFE85F4D18DDECA1F /* HXRotationTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HXRotationTool.debug.xcconfig; sourceTree = "<group>"; };
+		A7181FDBC0B01C24503B5DFAD373A4B8 /* HXRotationTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HXRotationTool.modulemap; sourceTree = "<group>"; };
 		B4561FA4A5873232583DEBD030B373F4 /* Pods-HXRotationTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXRotationTool_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C2031FD8452821F8D952699B2E6282F4 /* HXRotationTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HXRotationTool.debug.xcconfig; sourceTree = "<group>"; };
+		BCDC0E7F453A6EE0D5DD7210CA292F04 /* UIInterface+HXRotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIInterface+HXRotation.h"; path = "HXRotationTool/Classes/UIInterface+HXRotation.h"; sourceTree = "<group>"; };
 		D2AA954C5887F1175D98ADC10D767F22 /* Pods-HXRotationTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HXRotationTool_Example.modulemap"; sourceTree = "<group>"; };
-		E22B340B19C4BFE109E5D6E6AC445547 /* HXRotationTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HXRotationTool.release.xcconfig; sourceTree = "<group>"; };
-		EAEECB0BEB67EC1228C147432E634D9F /* HXRotationTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HXRotationTool-Info.plist"; sourceTree = "<group>"; };
-		F3176FEDA634AED03E70C7036C6DC802 /* UIInterface+HXRotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIInterface+HXRotation.m"; path = "HXRotationTool/Classes/UIInterface+HXRotation.m"; sourceTree = "<group>"; };
+		DE347130DC4486E2AD44A7B7BC4BAF60 /* ResourceBundle-HXRotationTool-HXRotationTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-HXRotationTool-HXRotationTool-Info.plist"; sourceTree = "<group>"; };
+		E40656CB7A79A2B6063B406ACACD2E3E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		ECA65DF4D70C16A7204992D60F4EC3FF /* HXRotationTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HXRotationTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F78CFB0B6E8FC8CE36CB9EA6EB3E9516 /* HXRotationTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HXRotationTool-prefix.pch"; sourceTree = "<group>"; };
 		FD71795B5393325ABCAA45085D027FCE /* Pods-HXRotationTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HXRotationTool_Example-umbrella.h"; sourceTree = "<group>"; };
-		FF8A9BC2F32010F79A3B190DAF847257 /* HXRotationTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HXRotationTool-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		97A4B335EAC5377DC230594730CAD4A4 /* Frameworks */ = {
+		868F148304DD34079A9EA0BF3ECB7B1B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A5C6732D11BA68E9A4BB6602CD3755B /* Foundation.framework in Frameworks */,
+				106A10980487CD0B903331C20BBF2CFE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0DE0A039249AE96AF181B7899261699 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,21 +94,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3C4C115650CFCD8D4EED34A0FE33B766 /* Development Pods */ = {
+		25848BF3D2E488069ED3A9F9D041812C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				97DF23B9DD7F4608100660B6F8A71697 /* HXRotationTool */,
+				A7181FDBC0B01C24503B5DFAD373A4B8 /* HXRotationTool.modulemap */,
+				787E346599DCAA3D681C7AB19D8D5BA2 /* HXRotationTool-dummy.m */,
+				87B3BA09929D9E88583F304213567CC4 /* HXRotationTool-Info.plist */,
+				F78CFB0B6E8FC8CE36CB9EA6EB3E9516 /* HXRotationTool-prefix.pch */,
+				509019C978CA59473F14342E3B4CC306 /* HXRotationTool-umbrella.h */,
+				9E87BC776D7CFB5DFE85F4D18DDECA1F /* HXRotationTool.debug.xcconfig */,
+				71621BE5EB03B93D3A41D466EA436659 /* HXRotationTool.release.xcconfig */,
+				DE347130DC4486E2AD44A7B7BC4BAF60 /* ResourceBundle-HXRotationTool-HXRotationTool-Info.plist */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		43E2C2AC310D0ACCB9349EE1A7A50127 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				89867D85936C3BB0CA5FEB31D32C7E39 /* HXRotationTool */,
-				74078E076BCEA796A30003D25C57C501 /* Pods-HXRotationTool_Example */,
-			);
-			name = Products;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HXRotationTool";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -100,19 +118,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		57F29A3466FAB0F63F5166AADC411C63 /* Support Files */ = {
+		75E3AA28430164F8B2E9AA045CB9492C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4F70490C3A5F486C3F0385590EFCE2B5 /* HXRotationTool.modulemap */,
-				5811C1517C00DDAC941A820BEA42D463 /* HXRotationTool-dummy.m */,
-				EAEECB0BEB67EC1228C147432E634D9F /* HXRotationTool-Info.plist */,
-				FF8A9BC2F32010F79A3B190DAF847257 /* HXRotationTool-prefix.pch */,
-				173EBEB74A78B22F1144C7FA399958B5 /* HXRotationTool-umbrella.h */,
-				C2031FD8452821F8D952699B2E6282F4 /* HXRotationTool.debug.xcconfig */,
-				E22B340B19C4BFE109E5D6E6AC445547 /* HXRotationTool.release.xcconfig */,
+				89867D85936C3BB0CA5FEB31D32C7E39 /* HXRotationTool */,
+				94C8D264D0F4C093F180CB43BD136663 /* HXRotationTool-HXRotationTool */,
+				74078E076BCEA796A30003D25C57C501 /* Pods-HXRotationTool_Example */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HXRotationTool";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DFCC7CD2F07DC96F9710A35B5FC5EAE /* Targets Support Files */ = {
@@ -123,24 +136,33 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		97DF23B9DD7F4608100660B6F8A71697 /* HXRotationTool */ = {
+		8237FD99C3897BFD69E75FEDEE6E5D4F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9632E6B76FA9CFAD6EFFEF721693D657 /* UIInterface+HXRotation.h */,
-				F3176FEDA634AED03E70C7036C6DC802 /* UIInterface+HXRotation.m */,
-				A3F8AF9CBEEBDF5F3F5E8D5526725304 /* Pod */,
-				57F29A3466FAB0F63F5166AADC411C63 /* Support Files */,
+				96610ECD4C5D16C3E47B488A407B77CD /* HXRotationTool */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		96610ECD4C5D16C3E47B488A407B77CD /* HXRotationTool */ = {
+			isa = PBXGroup;
+			children = (
+				28700009CCB69C23537FD6D06BB54AF3 /* PrivacyInfo.xcprivacy */,
+				BCDC0E7F453A6EE0D5DD7210CA292F04 /* UIInterface+HXRotation.h */,
+				84735857CD2182E33DFE9C44C54A706B /* UIInterface+HXRotation.m */,
+				B3579E7C02F208E1E8916B51934BF00A /* Pod */,
+				25848BF3D2E488069ED3A9F9D041812C /* Support Files */,
 			);
 			name = HXRotationTool;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		A3F8AF9CBEEBDF5F3F5E8D5526725304 /* Pod */ = {
+		B3579E7C02F208E1E8916B51934BF00A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				1B17EE4B1708EEB4DE75A00C3D26B7D2 /* HXRotationTool.podspec */,
-				6D3368B1DDDA04A1E555B345D0896230 /* LICENSE */,
-				AD991C92032EF014E887BEC432528C2F /* README.md */,
+				ECA65DF4D70C16A7204992D60F4EC3FF /* HXRotationTool.podspec */,
+				E40656CB7A79A2B6063B406ACACD2E3E /* LICENSE */,
+				198E7E8D6302C0E6BDA9133B5FA2DE72 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -149,9 +171,9 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				3C4C115650CFCD8D4EED34A0FE33B766 /* Development Pods */,
+				8237FD99C3897BFD69E75FEDEE6E5D4F /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				43E2C2AC310D0ACCB9349EE1A7A50127 /* Products */,
+				75E3AA28430164F8B2E9AA045CB9492C /* Products */,
 				7DFCC7CD2F07DC96F9710A35B5FC5EAE /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -184,12 +206,12 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		43EF154529261060FD8BCFD07E8EF92B /* Headers */ = {
+		7E9E805B5E122C963BA1A99D0F128A33 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6149264ACBBA3C97F8D2E01BD4DCD25A /* HXRotationTool-umbrella.h in Headers */,
-				BB12C052C0F64A0EFF7E03A1F9C3D84F /* UIInterface+HXRotation.h in Headers */,
+				BDBA259C3EF577A8F2853078E1284503 /* HXRotationTool-umbrella.h in Headers */,
+				C006EAA5F33039FA6BDFCE4274F33F41 /* UIInterface+HXRotation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,16 +228,17 @@
 /* Begin PBXNativeTarget section */
 		532C90C864DC4E0AB3DCEE942FA851A4 /* HXRotationTool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B579D1A3F80A53777F25D541FE4CC3F /* Build configuration list for PBXNativeTarget "HXRotationTool" */;
+			buildConfigurationList = 5D3277D97246490F444DF2CEC327C607 /* Build configuration list for PBXNativeTarget "HXRotationTool" */;
 			buildPhases = (
-				43EF154529261060FD8BCFD07E8EF92B /* Headers */,
-				E763F7877B93C9FFAC87714E36AB355E /* Sources */,
-				97A4B335EAC5377DC230594730CAD4A4 /* Frameworks */,
-				D350D502353438F597BC38AAA51DA336 /* Resources */,
+				7E9E805B5E122C963BA1A99D0F128A33 /* Headers */,
+				253DED9A8F707E03655803AF613E465C /* Sources */,
+				868F148304DD34079A9EA0BF3ECB7B1B /* Frameworks */,
+				3A954F9DC291363CBDA53067EC33FFA5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				541094F563E95877006B3F0362D16CC2 /* PBXTargetDependency */,
 			);
 			name = HXRotationTool;
 			productName = HXRotationTool;
@@ -234,12 +257,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				A3F0ED4F5E8BB5F4F95FFD2E235F8D12 /* PBXTargetDependency */,
+				C9E1A6B18C659B0C6248C1440BA0E57E /* PBXTargetDependency */,
 			);
 			name = "Pods-HXRotationTool_Example";
 			productName = Pods_HXRotationTool_Example;
 			productReference = 74078E076BCEA796A30003D25C57C501 /* Pods-HXRotationTool_Example */;
 			productType = "com.apple.product-type.framework";
+		};
+		DCDA7A587EBB9B1B090A7EC2CC3D20CC /* HXRotationTool-HXRotationTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64CE9297B8280DD8903E4234CDA990BA /* Build configuration list for PBXNativeTarget "HXRotationTool-HXRotationTool" */;
+			buildPhases = (
+				2BBCC7CF2297852A4C91E0714B52D3E1 /* Sources */,
+				D0DE0A039249AE96AF181B7899261699 /* Frameworks */,
+				A663DA255C7DB0CBB71A22DA4C831BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HXRotationTool-HXRotationTool";
+			productName = HXRotationTool;
+			productReference = 94C8D264D0F4C093F180CB43BD136663 /* HXRotationTool-HXRotationTool */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -247,8 +287,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -259,21 +299,31 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 43E2C2AC310D0ACCB9349EE1A7A50127 /* Products */;
+			productRefGroup = 75E3AA28430164F8B2E9AA045CB9492C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				532C90C864DC4E0AB3DCEE942FA851A4 /* HXRotationTool */,
+				DCDA7A587EBB9B1B090A7EC2CC3D20CC /* HXRotationTool-HXRotationTool */,
 				5F436AB752361365037E2A7FA229DEF4 /* Pods-HXRotationTool_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D350D502353438F597BC38AAA51DA336 /* Resources */ = {
+		3A954F9DC291363CBDA53067EC33FFA5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				413D65AFE4BCFFB91703CC7A9A62EBA3 /* HXRotationTool-HXRotationTool in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A663DA255C7DB0CBB71A22DA4C831BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DCA95D23EF58B09427C2109A26B6168 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +337,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		253DED9A8F707E03655803AF613E465C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F542054D4D9D94D1BEAA3843354410A8 /* HXRotationTool-dummy.m in Sources */,
+				0D5C90841EA5D2A7C2FE3ABAE8079C7C /* UIInterface+HXRotation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBCC7CF2297852A4C91E0714B52D3E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		779AC89B525750D554542EDBE1252172 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -295,27 +361,72 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E763F7877B93C9FFAC87714E36AB355E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ECE1611C2E68AEC494982D21DC3F9462 /* HXRotationTool-dummy.m in Sources */,
-				DB21D3BB206A4F35EDD601CF5C96811F /* UIInterface+HXRotation.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A3F0ED4F5E8BB5F4F95FFD2E235F8D12 /* PBXTargetDependency */ = {
+		541094F563E95877006B3F0362D16CC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HXRotationTool-HXRotationTool";
+			target = DCDA7A587EBB9B1B090A7EC2CC3D20CC /* HXRotationTool-HXRotationTool */;
+			targetProxy = E28935AE655ED3EE4DC1F7CDFC80FDD1 /* PBXContainerItemProxy */;
+		};
+		C9E1A6B18C659B0C6248C1440BA0E57E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HXRotationTool;
 			target = 532C90C864DC4E0AB3DCEE942FA851A4 /* HXRotationTool */;
-			targetProxy = 134D44BA6C8A873C9120B75FDFFA8349 /* PBXContainerItemProxy */;
+			targetProxy = 6CFC3ADCDF0851BBEA47D5F3AB8919BF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		13AC8903EB57956E81BF543C06296F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71621BE5EB03B93D3A41D466EA436659 /* HXRotationTool.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HXRotationTool/HXRotationTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HXRotationTool/HXRotationTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HXRotationTool/HXRotationTool.modulemap";
+				PRODUCT_MODULE_NAME = HXRotationTool;
+				PRODUCT_NAME = HXRotationTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		24CDD5CE26161038B39F811B4B54CE37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71621BE5EB03B93D3A41D466EA436659 /* HXRotationTool.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HXRotationTool";
+				IBSC_MODULE = HXRotationTool;
+				INFOPLIST_FILE = "Target Support Files/HXRotationTool/ResourceBundle-HXRotationTool-HXRotationTool-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = HXRotationTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -382,9 +493,9 @@
 			};
 			name = Debug;
 		};
-		6B74E4B3E7497C2196186D748E57B186 /* Release */ = {
+		871201376EB99BF39A80CE14B72BA39C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E22B340B19C4BFE109E5D6E6AC445547 /* HXRotationTool.release.xcconfig */;
+			baseConfigurationReference = 9E87BC776D7CFB5DFE85F4D18DDECA1F /* HXRotationTool.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -407,11 +518,27 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
+		};
+		8A39191312E4AEFBC567B4272289723D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E87BC776D7CFB5DFE85F4D18DDECA1F /* HXRotationTool.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HXRotationTool";
+				IBSC_MODULE = HXRotationTool;
+				INFOPLIST_FILE = "Target Support Files/HXRotationTool/ResourceBundle-HXRotationTool-HXRotationTool-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = HXRotationTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
 		};
 		8BDE41773FB15BB2DBCF4C7C6C08BC28 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -540,36 +667,6 @@
 			};
 			name = Debug;
 		};
-		F19AC8B16E2EC978F03A794C5ADDB1FB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2031FD8452821F8D952699B2E6282F4 /* HXRotationTool.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HXRotationTool/HXRotationTool-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HXRotationTool/HXRotationTool-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HXRotationTool/HXRotationTool.modulemap";
-				PRODUCT_MODULE_NAME = HXRotationTool;
-				PRODUCT_NAME = HXRotationTool;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -582,11 +679,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B579D1A3F80A53777F25D541FE4CC3F /* Build configuration list for PBXNativeTarget "HXRotationTool" */ = {
+		5D3277D97246490F444DF2CEC327C607 /* Build configuration list for PBXNativeTarget "HXRotationTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F19AC8B16E2EC978F03A794C5ADDB1FB /* Debug */,
-				6B74E4B3E7497C2196186D748E57B186 /* Release */,
+				871201376EB99BF39A80CE14B72BA39C /* Debug */,
+				13AC8903EB57956E81BF543C06296F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64CE9297B8280DD8903E4234CDA990BA /* Build configuration list for PBXNativeTarget "HXRotationTool-HXRotationTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A39191312E4AEFBC567B4272289723D /* Debug */,
+				24CDD5CE26161038B39F811B4B54CE37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

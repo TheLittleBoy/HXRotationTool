@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HXRotationTool'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = 'iOS 屏幕旋转工具类，兼容iOS 16，兼容Xcode 13和Xcode 14。'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-iOS 屏幕旋转工具类，兼容iOS 16，兼容Xcode 13和Xcode 14。
+iOS 屏幕旋转工具类，兼容iOS 16，兼容Xcode 13、Xcode 14和Xcode 15。
                        DESC
 
   s.homepage         = 'https://github.com/TheLittleBoy/HXRotationTool'
@@ -31,6 +31,8 @@ iOS 屏幕旋转工具类，兼容iOS 16，兼容Xcode 13和Xcode 14。
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'HXRotationTool/Classes/**/*'
+  
+  s.resource_bundles = {'HXRotationTool' => ['privacy/PrivacyInfo.xcprivacy']}
   
   # s.resource_bundles = {
   #   'HXRotationTool' => ['HXRotationTool/Assets/*.png']

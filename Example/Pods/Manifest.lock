@@ -1,5 +1,5 @@
 PODS:
-  - HXRotationTool (0.2.0)
+  - HXRotationTool (0.4.0)
 
 DEPENDENCIES:
   - HXRotationTool (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HXRotationTool: 29eaa1dc37251e0e5ebec400831f5989ff8b7f3a
+  HXRotationTool: 016a4ed489e56d9be5f680d7dd03c64fc46f88e0
 
 PODFILE CHECKSUM: b3b2d3d6ac77a4f92bd69ef993ab36f6b0ecde19
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.15.2
